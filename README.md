@@ -5,7 +5,7 @@ Often, doctors and radiologists properly diagnose their patients according to th
 
 
 ### Objectives:
-The aim of this project is to develop a program which eliminates uncertainty for radiologists when interpreting unclear chest X-rays. I will implement a convolutional neural network-based classification model that detects lung infections in X-ray imaging with high accuracy. This model will be able to classify scans into 1 of 2 categories: a normal healthy lung and an infected unhealthy lung.
+The aim of this project is to develop a program that reduces uncertainty for radiologists when interpreting chest X-rays. With a convolutional neural network-based classification model (CNN), lung infections in X-ray imaging can be detected with high accuracy. This model will be able to classify scans into 1 of 2 categories: normal healthy lungs and infected unhealthy lungs.
 
 
 ### Methodologies/Techniques:
@@ -21,17 +21,19 @@ These libraries can be categorized as such:
 Jupyter Lab will be my IDE of choice simply because I have used it the most in the past. However, IDE’s such as Spyder or Visual Studio are just as practical.
 The neural network will be created from scratch (not pre-trained). 
 Sensitivity analysis of the neural network will be performed to compare performance against other machine learning classification algorithms, part of the performance monitoring procedure.
-If time allows, I will try to utilize a local GPU to accelerate model training. If that will not be possible, I will use a cloud service such as Google Colab for training instead.
+GPU hardware accelaration will be used (either locally or through the cloud) for model training, given the heavy computation the model will be performing.
 After training, the model will be saved for deployment. 
 
 
 ### Dataset:
 The model will train over a large dataset of X-ray images from anonymous patients (https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database). This dataset was created by a team of researchers from Qatar University, Qatar and University of Dhaka, Bangladesh for COVID-19 research. For each of the 4 categories, there are 2 folders of data (images and masks) as well as a metadata file with columns: filename, format, size and url. Sample screenshots of the dataset:
 
-![image](https://user-images.githubusercontent.com/69071476/229360061-179b120d-6357-471a-a06c-c9aa871066e7.png) ----> Metadata
+#### Metadata
+![image](https://user-images.githubusercontent.com/69071476/229360061-179b120d-6357-471a-a06c-c9aa871066e7.png)
 
+#### X-rays
+![image](https://user-images.githubusercontent.com/69071476/229360000-0bc5a393-e3c6-4a03-879c-177426abe2c5.png)
 
-![image](https://user-images.githubusercontent.com/69071476/229360000-0bc5a393-e3c6-4a03-879c-177426abe2c5.png) ----> X-rays
-
-![image](https://user-images.githubusercontent.com/69071476/229359414-58c34485-da95-42eb-9931-65a26d00d22b.png) ----> Masks (In radiography, a mask is a version of the x-ray which does not include unwanted areas.)
+#### Masks (In radiography, a mask is a version of the x-ray that does not include unwanted areas.)
+![image](https://user-images.githubusercontent.com/69071476/229359414-58c34485-da95-42eb-9931-65a26d00d22b.png)
 
