@@ -34,6 +34,6 @@ The model will train over a large dataset of X-ray images from anonymous patient
 #### X-rays
 ![image](https://user-images.githubusercontent.com/69071476/229360000-0bc5a393-e3c6-4a03-879c-177426abe2c5.png)
 
-#### Masks (In radiography, a mask is a version of the x-ray that does not include unwanted areas.)
+#### Masks (In radiography, a mask is a version of the x-ray that does not include unwanted image details.)
 ![image](https://user-images.githubusercontent.com/69071476/229359414-58c34485-da95-42eb-9931-65a26d00d22b.png)
 
