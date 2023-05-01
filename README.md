@@ -18,7 +18,7 @@ These libraries can be categorized as such:
 -	Machine learning (TensorFlow, Keras, scikit-learn)
 -	Performance monitoring and hyperparameter tuning (scikit-learn, Keras)
 -	Model saving and deployment (pickle, Keras, Flask)
-Jupyter Lab will be my IDE of choice simply because I have used it the most in the past. However, IDE’s such as Spyder or Visual Studio are just as practical.
+- Jupyter Lab will be my IDE of choice simply because I have used it the most in the past. However, IDE’s such as Spyder or Visual Studio are just as practical.
 The neural network will be created from scratch (not pre-trained). 
 Sensitivity analysis of the neural network will be performed to compare performance against other machine learning classification algorithms, part of the performance monitoring procedure.
 GPU hardware accelaration will be used (either locally or through the cloud) for model training, given the heavy computation the model will be performing.
