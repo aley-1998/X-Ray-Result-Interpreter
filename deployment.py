@@ -25,11 +25,9 @@ def run_pred(values):
     values = load_img(values, target_size=(256,256))
     values = img_to_array(values)
     values = np.array([values])
-    pred = int(model.predict(values)[0][0].round())
-    
-    if pred == 0:
-        return 'No abnormalities detected'
-    return 'Abnormalities detected'
+    pred = model.predict(values)[0][0]
+
+    return f'There is a {(pred*100).round(2)}% chance of abnormalities'
     
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=5000, debug=True, threaded=True)
