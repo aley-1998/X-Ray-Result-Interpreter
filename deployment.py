@@ -20,7 +20,7 @@ def run_pred(values):
     from keras.utils import load_img, img_to_array
     from PIL import Image
     
-    model = tf.keras.models.load_model('model18.h5')
+    model = tf.keras.models.load_model('model.h5')
     
     values = load_img(values, target_size=(256,256))
     values = img_to_array(values)
