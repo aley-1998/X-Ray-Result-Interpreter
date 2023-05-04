@@ -9,7 +9,7 @@ The aim of this project is to develop a program that reduces uncertainty for rad
 
 
 ### Methodologies/Techniques:
-This project will be implemented with Python programming language, as it is a powerful high level scientific programing language. The Python distribution Anaconda will be used since it contains all core Python libraries the program relies on to function, if not most. 
+This project will be implemented with Python programming language, as it is a powerful high level scientific programing language. The Python distribution Anaconda will be used since it contains all scientific Python libraries the program relies on to function, if not most. 
 These libraries can be categorized as such: 
 -	File handling (os, zipfile)
 -	Data cleaning/handling (Pandas, NumPy)
