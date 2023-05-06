@@ -1,11 +1,7 @@
 # X-Ray-Result-Interpreter
 
-### Introduction:
-Often, doctors and radiologists properly diagnose their patients according to their X-ray scans. But sometimes patients are misdiagnosed because of human error: either the radiologist makes an erroneous interpretation of the X-rays or the scan itself was not done properly leading to false interpretations. Other times, radiologists ask their patients to re-do the scans because they do not look clear enough to interpret, which is time consuming for both patients and doctors as appointments get pushed back and rescheduled. Patients must reschedule more scan appointments and pay more money. Sick patients do not get their diagnosis in a timely manner. In extreme cases, a quick and accurate diagnosis can save a patient’s life.
-
-
 ### Objectives:
-The aim of this project is to develop a program that reduces uncertainty for radiologists when interpreting chest X-rays. With a convolutional neural network-based classification model (CNN), lung infections in X-ray imaging can be detected with high accuracy. This model will be able to classify scans into 1 of 2 categories: normal healthy lungs and infected unhealthy lungs.
+The aim of this project is to develop a program that classifies chest X-rays. With a convolutional neural network-based classification model (CNN), lung infections in X-ray imaging can be detected with high accuracy. This model will be able to classify scans into 1 of 2 categories: normal healthy lungs and infected unhealthy lungs.
 
 
 ### Methodologies/Techniques:
