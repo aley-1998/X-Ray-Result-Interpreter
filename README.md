@@ -1,11 +1,11 @@
 # X-Ray-Result-Interpreter
 
 ### Objectives:
-The aim of this project is to develop a program that classifies chest X-rays. With a convolutional neural network-based classification model (CNN), lung infections in X-ray imaging can be detected with high accuracy. This model will be able to classify scans into 1 of 2 categories: normal healthy lungs and infected unhealthy lungs.
+In this project, a program was developed to classify chest X-rays. With a convolutional neural network-based classification model (CNN), lung infections in X-ray imaging are detected with great accuracy (87%). This model is able to classify scans into 1 of 2 categories: normal healthy lungs and infected unhealthy lungs.
 
 
 ### Methodologies/Techniques:
-This project will be implemented with Python programming language, as it is a powerful high level scientific programing language. The Python distribution Anaconda will be used since it contains all scientific Python libraries the program relies on to function, if not most. 
+This project is implemented with Python programming language. The Python distribution Anaconda will is used since it contains all scientific Python libraries the program relies on to function, if not most. 
 These libraries can be categorized as such: 
 -	File handling (os, zipfile)
 -	Data cleaning/handling (Pandas, NumPy)
