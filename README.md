@@ -1,4 +1,4 @@
-# X-Ray-Result-Interpreter
+# X-Ray Result Interpreter
 
 ### Objectives:
 In this project, a program was developed to classify chest X-rays. With a convolutional neural network-based classification model (CNN), lung infections in X-ray imaging are detected with great accuracy (87%). This model is able to classify scans into 1 of 2 categories: normal healthy lungs and infected unhealthy lungs.
